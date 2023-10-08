@@ -37,7 +37,7 @@ int sum_k(const std::vector<int>& input, int k1, int k2) {
 
 int mean(const std::vector<int>& input) {
     int sum = 0, avrg;
-    for (long unsigned int i = 0; i < input.size(); ++i) {
+    for (int i = 0; i < (int) input.size(); ++i) {
         sum += input[i];
     }
     avrg = sum / input.size();

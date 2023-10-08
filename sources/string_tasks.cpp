@@ -28,7 +28,6 @@ void longest_shortest(const std::string& name_one, const std::string& name_two,
     //теперь минимум
     if (the_shortest.size() > name_two.size()) the_shortest = name_two;
     if (the_shortest.size() > name_three.size()) the_shortest = name_three;
-
 }
 
 // Task 8.
@@ -45,7 +44,6 @@ void add_stars(std::string& word) {
     for (size_t i = 0; i < word.size(); ++i) {
         word = '*' + word + '*';
     }
-
 }
 
 // Task 10.
@@ -62,7 +60,8 @@ int percent_of_a(const std::string& word) {
 std::string replace_can(const std::string& new_word) {
     std::string predlozhenie;
     for (size_t i = 0; i < predlozhenie.size() - 2; ++i) {
-        if (predlozhenie[i] == 'c' && predlozhenie[i + 1] == 'a' && predlozhenie[i + 2] == 'n'){
+        if (predlozhenie[i] == 'c' && predlozhenie[i + 1] == 'a'\
+        && predlozhenie[i + 2] == 'n'){
             predlozhenie.replace(i, 3, new_word);
         }
     }

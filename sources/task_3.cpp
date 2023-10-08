@@ -10,5 +10,4 @@ void swap_el(std::vector<int>& input) {
         input[i] = input[18 + i];
         input[18 + i] = temp;
     }
-    
 }

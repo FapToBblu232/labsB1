@@ -4,7 +4,7 @@
 
 // Task 4.
 void remove_negative(std::vector<int>& input) {
-    for (long unsigned int i = 0; i < input.size(); ++i) {
+    for (int i = 0; i < (int)input.size(); ++i) {
         if (input[i] < 0) {
             input.erase(input.begin() + i);
             break;
