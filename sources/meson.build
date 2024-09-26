@@ -1,6 +1,6 @@
 file_list = files(
   # remove it and add your own
-  'example.cpp',
+  'example.cpp', 'string_tasks.cpp', 'task_1.cpp', 'task_2.cpp', 'task_3.cpp', 'task_4.cpp', 
 )
 deps = []
 inc_dirs = [

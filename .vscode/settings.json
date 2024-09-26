@@ -1,3 +1,4 @@
 {
-    "mesonbuild.configureOnOpen": true
+    "mesonbuild.configureOnOpen": true,
+    "C_Cpp.default.compileCommands": "builddir/compile_commands.json"
 }
